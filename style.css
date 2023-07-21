@@ -301,7 +301,7 @@ nav ul li a:hover::after {
 }
 
 #services .row {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     margin-top: 40px;
@@ -520,7 +520,7 @@ footer {
     }
 
 #header {
-    background-image: url('https://i.ibb.co/0BhZxsw/background-mobile.png');
+    background-image: url('0_BoZuMV2kfcjiiTDV.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
