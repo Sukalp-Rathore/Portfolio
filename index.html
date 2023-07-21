@@ -1,0 +1,247 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukalp | Home</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://logos.textgiraffe.com/logos/logo-name/34800894-designstyle-badge-m.png" type="image/x-icon">
+    <!-- Font Awsome Icons -->
+    <script src="https://kit.fontawesome.com/2786bc3471.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------------------------------ Home ------------------------------>
+    <div id="header">
+        <nav>
+            <img src="https://logos.textgiraffe.com/logos/logo-name/34800894-designstyle-badge-m.png" class="logo">
+            <ul id="mobile-menu">
+                <li><a href="#header">Home<span class="color"></span></a></li>
+                <li><a href="#about">About<span class="color"></span></a></li>
+                <li><a href="#services">Projects<span class="color"></span></a></li>
+                <!-- <li><a href="#portfolio">Portfolio<span class="color"></span></a></li> -->
+                <li><a href="#contact">Contact Me<span class="color"></span></a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <p onclick="openMenu()"><i class="fa-solid fa-bars" onclick="openMenue()"></i></p>
+        </nav>
+        <div class="container">
+            <div class="header-text">
+                <!-- <p>A WEB LEARNER<span class="color">_</span></p> -->
+                <h1 class="main-title">I'm <span class="color">S</span>ukalp Rathore<br>
+                    A <span class="bgcolor">Full Stack Web Developer</span>
+                </h1>
+                <div class="test">
+                    <a href="" download="Sukalp's Resume (1).pdf"><button class="custom-btn btn-15">DOWNLOAD
+                            CV!</button> </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------ About ------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="6ddb4019-9a97-4278-8cdd-e74d9d2a780b.jpeg" alt="users">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me<span class="color">.</span></h2>
+                    <p>A Full Stack Web developer with expertise in creating innovative and user-friendly web
+                        applications.Highly skilled in HTML,
+                        CSS, JavaScript ,React Js , Node Js and MongoDB. Committed to deliver high-quality work
+                        with exceptional attention to detail. Passionate about exploring new technologies and finding
+                        creative solutions to complex problems.</p>
+                    <ul>
+                        <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                        <li class="tab-links" onclick="openTab('education')">Education</li>
+                        <li class="tab-links" onclick="openTab('experiences')">Experiences</li>
+                    </ul>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <h3 class="bgcolor">Web Development</h3>
+                        <p>Creating Innovative Web Applications</p>
+
+                        <h3 class="bgcolor">Video Editing</h3>
+                        <p>Covering the trends in Tech</p>
+
+                    </div>
+
+                    <div class="tab-contents education" id="education">
+                        <h3 class="bgcolor">2020 - 2024</h3>
+                        <p>B.Tech Information Technology | Medi-Caps University</p>
+
+                        <h3 class="bgcolor">Class 12th</h3>
+                        <p>S.I.C.A S.S School Sch.No.78 | Indore </p>
+                    </div>
+
+                    <div class="tab-contents experiences" id="experiences">
+                        <h3 class="bgcolor">Odanta</h3>
+                        <p>Worked as a front-end developer , build various front end functionalities using HTML,CSS and
+                            Js</p>
+
+                        <h3 class="bgcolor">TechValens,Indore</h3>
+                        <p>Got training as a Front-End Web Developer. Skills a learned there were HTML , CSS , Bootstrap
+                            , Js and Js frameworks (ReactJs and Angular Js).</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------ Services ------------------------------>
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">Projects<span class="color">.</span></h2>
+            <p>CLick Them to Navigate to their Git Repositories.</p>
+            <div class="row">
+                <div class="services-col"
+                    onclick="window.location.href='https://github.com/Sukalp-Rathore/EcommerceWebApp'">
+                    <i class="fa-brands fa-react"></i><br>
+                    <h3>Ecommerce Web Application</h3>
+                    <p>This Ecommerce Application is made using ReactJs , Strapi(backend) and uses Stripe(Payment
+                        Integeration) . Our ecommerce website aims to deliver a modern shopping experience with a
+                        user-friendly interface and robust backend powered by Strapi. </p><br>
+                    <!-- <a href="#">learn more</a>   -->
+                </div>
+                <div class="services-col"
+                    onclick="window.location.href='https://github.com/Sukalp-Rathore/Daily-Blog-WebApp'">
+                    <i class="fa-brands fa-Node"></i><br>
+                    <h3>Daily Blog App</h3>
+                    <p>This is a daily blog web app , where user can upload there daily blogs in forms of text and
+                        narrate their experiences , this was made using NodeJs ,express and EJS .</p><br>
+                    <!-- <a href="#">learn more</a>   -->
+                </div>
+                <div class="services-col" onclick="window.location.href='https://github.com/Sukalp-Rathore/Notes-App'">
+                    <i class="fa-brands fa-react"></i><br>
+                    <h3>Notes App</h3>
+                    <p>This is a keeper App which will keep record of your notes locally , user can add a new note or
+                        delete a previous note . This was made using React Js.</p><br>
+                    <!-- <a href="#">learn more</a>   -->
+                </div>
+                <div class="services-col"
+                    onclick="window.location.href='https://github.com/Sukalp-Rathore/Todos-list-webapp'">
+                    <i class="fa-brands fa-node"></i></i>
+                    <h3>Todos List WebApp</h3>
+                    <p>Its a todos list web app connected with mongoose using NodeJs , EJS and Express .User can addd
+                        tasks in the list and delete it after its done.</p><br>
+                    <!-- <a href="#">learn more</a>   -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="services-col"
+                    onclick="window.location.href='https://github.com/Sukalp-Rathore/weatherforecast'">
+                    <i class="fa-brands fa-js"></i></i>
+                    <h3>Weather Forecast WebApp</h3>
+                    <p>It's a weather forecast application where user can enter the country name for getting the current
+                        weather forecast .
+                    </p><br>
+                    <!-- <a href="#">learn more</a>   -->
+                </div>
+                <div class="services-col" onclick="window.location.href='https://github.com/Sukalp-Rathore/Simongame'">
+                    <i class="fa-brands fa-js"></i></i>
+                    <h3>Simon Game</h3>
+                    <p>This is a simon game made using Javascript and HTML/CSS.</p><br>
+                    <!-- <a href="#">learn more</a>   -->
+                </div>
+                <div class="services-col"
+                    onclick="window.location.href='https://github.com/Sukalp-Rathore/Social-Networking-Site'">
+                    <i class="fa-brands fa-angular"></i></i>
+                    <h3>Social Media Clone</h3>
+                    <p>User can sign in or signup to get home page where user can upload a post , like others posts and
+                        can edit their own profile .
+                    </p><br>
+                    <!-- <a href="#">learn more</a>   -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------ Portfolio ------------------------------>
+    <!-- <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work<span class="color">.</span></h2>
+            <div class="row">
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/gvMycv9/work-1.png">
+                    <div class="layer">
+                        <h3>Daily Blog App</h3>
+                        <p>This is a daily blog web app , where user can upload there daily blogs in forms of text and
+                            narrate their experiences , this was made using NodeJs ,express and EJS .</p>
+                        <a href='https://github.com/Sukalp-Rathore/Daily-Blog-WebApp'><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/QDQ3VWv/work-2.png">
+                    <div class="layer">
+                        <h3>Shopping App Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo
+                            Lorem ipsum dolor</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/nc4vLyb/work-3.png">
+                    <div class="layer">
+                        <h3>Reading App Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo
+                            Lorem ipsum dolor</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">Learn More</button>
+        </div>
+    </div> -->
+
+    <!------------------------------ Contact ------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="contact-left">
+                    <form>
+                        <input type="text" name="fullName" id="full-name" placeholder="Your Name">
+                        <input type="email" name="Email" id="email" placeholder="Your Email">
+                        <textarea name="message" id="message" rows="10" placeholder="Your Message ..."></textarea>
+                        <input type="submit" value="Submit" class="btn2">
+                    </form>
+                </div> -->
+                <div class="contact-right">
+                    <h2 class="sub-title">My Contact<span class="color">.</span></h2>
+                    <p class="bgcolor"><i class="fa-sharp fa-solid fa-phone"></i> Phone</p>
+                    <p>+91 9340260519</p>
+                    <p class="bgcolor"><i class="fa-solid fa-paper-plane"></i> Email</p>
+                    <p>sukalprathore@gmail.com</p>
+                    <p class="bgcolor"><i class="fa-solid fa-user"></i> Social Profiles</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/sukalp-rathore-9b1809246"><i
+                                    class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Sukalp-Rathore"><i class="fa-brands fa-square-github"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/sukalp_rathore18/?igshid=MzRlODBiNWFlZA%3D%3D"><i
+                                    class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Crafting digital experiences with passion and precision.</p>
+        </div>
+    </footer>
+</body>
+<script src="js.js"></script>
+
+</html>
